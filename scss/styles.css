@@ -1,76 +1,8 @@
-/*
 
-Theme Name: Nectarine - Responsive Restaurant Theme
-Description: This is Nectarine, a Cool, Animatem, Responsive Bootstrap Theme for your Restaurant.
-Version: 1.1
-Author: BeeSoft - Web & Mobile Solutions
-Author URI: http://www.beesoft.it
-
-============================================================================
-
-1.0 - General Styles & Inclusions
-	1.1 - Preload
-	1.2 - Sections & Titles
-	1.3 - Carousels & Sliders
-	1.4 - Forms
-	1.5 - Backgrounds
-2.0 - Home Page
-	2.1 - Header
-	2.2 - Main View
-	2.2 - Intro
-	2.4 - Specialities
-	2.9 - Footer
-3.0 - The Pages
-	3.1 - General Styles
-	3.2 - Contacts Page
-	3.3 - About Page
-	3.4 - The Menu Page
-	3.5 - Services Page
-4.0 - Standard Pages
-	4.1 - Full Width
-	4.2 - Right Sidebar
-	4.3 - Left Sidebar
-5.0 - Blog
-	5.1 - Archives
-	5.2 - Single
-6.0 - Theme Features
-	6.1 - Accordion & Toggles
-	6.2 - Tabs
-	6.3 - Animated Counters
-	6.4 - Tables
-	6.5 - Google Maps
-	6.6 - Images Blocks
-	6.7 - Error 404 Page
-7.0 - Import Responsive Styles
-8.0 - IE Queries
-
-/* ============================================================================ */
-/* 1.0 - General Styles & Inclusions											*/
-/* ============================================================================ */
 @import url("https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css");
 @import url("http://fonts.googleapis.com/css?family=Open+Sans:400italic,400,700");
 @import url("http://fonts.googleapis.com/css?family=Herr+Von+Muellerhoff");
-/*  SCSS VARIABLES
-================================================================================
 
-	1.0 - Fonts w/Fallbacks
-	1.1 - Colors Palette
-
-/* ============================================================================ */
-/* 1.0 - Fonts w/Fallbacks														*/
-/* ============================================================================ */
-/* ============================================================================ */
-/* 1.1 - Colors Palette															*/
-/* ============================================================================ */
-/* ============================================================================ */
-/** ============= Border Radius ===================== **/
-/** =============== Transition ====================== **/
-/** =============== Animation Delay ================== **/
-/** ==================== Transform =================== **/
-/** ====================  =================== **/
-/** ================================================ **/
-/** Preloader Animation **/
-/** ================================================ **/
 @-webkit-keyframes cubemove {
   25% {
     -webkit-transform: translateX(42px) rotate(-90deg) scale(0.5);
