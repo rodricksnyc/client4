@@ -782,7 +782,7 @@ li.call-to-menu {
   background: #fff; }
 
 .white {
-  background: rgb(255,255,255, 0.7) !important;
+  background: rgb(255,255,255, 0.8) !important;
   height:auto;
 }
 .black {
@@ -790,6 +790,7 @@ li.call-to-menu {
 }
 .black2 {
   color:black !important;
+
 
 }
 @media (max-width:768px) {
@@ -3764,7 +3765,7 @@ table.table-bordered {
 }
 
 .navbar-default .navbar-collapse, .navbar-default .navbar-form {
-    border-color: black;
+    border-color: #cfa670;
     text-align: left;
 
 }
