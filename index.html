@@ -7,7 +7,7 @@
 
 	<title>Naomi Cruz</title>
 
-
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
 	<link href="css/bootstrap.min.css" rel="stylesheet">
 
 
@@ -451,6 +451,10 @@
 		</div>
 	</section>
 
+<div class="scrollTop">
+	<center><a style="color:black;" class="scroll" href=""><i style="color:black;" class="fas fa-arrow-up"></i> Back to Top</a></center>
+</div>
+
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 
@@ -484,8 +488,20 @@
 					$("#thing a").removeClass("black2");
 			  }
 		  })
-		})
+		});
+
+var scrollTop = $(".scrollTop");
+var scrollSpeed = 20000;
+$(scrollTop).click(function() {
+	$('html, body').animate({
+		scrollTop: 0
+	}, scrollSpeed);
+
+});
+
+
 </script>
+
 
     <script src="js/bootstrap.min.js"></script>
 
