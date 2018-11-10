@@ -397,7 +397,7 @@ button.btn {
 /* ============================================================================ */
 /* 1.4 - Forms																	*/
 /* ============================================================================ */
-.form-control {
+/* .form-control {
   font-family: "Open Sans", sans-serif;
   font-weight: 700;
   font-size: 12px;
@@ -427,7 +427,32 @@ button.btn {
   display: inline-block; }
 
 .form-control.rx {
-  float: right; }
+  float: right; } */
+
+@media (max-width:767px) {
+.mt-20 {
+  margin-top:20px;
+}
+}
+
+.always20 {
+  margin-top:20px;
+}
+
+.btn.btn-primary {
+  background: #cfa670 !important;
+  border-color: #cfa670 !important;
+}
+
+  .input-group {
+      position: relative;
+      display:block !important;
+      border-collapse: separate;
+  }
+
+.form-control {
+  background: transparent !important;
+}
 
 /* ============================================================================ */
 /* 1.5 - Backgrounds															*/
@@ -1544,6 +1569,19 @@ button.navbar-toggle collapsed {
 /* ============================================================================ */
 /* 2.9 - Footer																	*/
 /* ============================================================================ */
+
+.control-label {
+  font-family: "Open Sans", sans-serif;
+font-weight: 400;
+  color: white;
+
+}
+
+
+
+
+
+
 #foot {
   background: #212121; }
   #foot .logo {
@@ -1590,6 +1628,10 @@ button.navbar-toggle collapsed {
       font-weight:500;
     }
 
+
+
+
+
 #credits {
   padding: 0 0 20px 0; }
   #credits .split-title {
@@ -1622,7 +1664,9 @@ button.navbar-toggle collapsed {
 
 .social {
   padding-left: 0;
-  margin: 30px 0 80px 0; }
+  margin: 30px 0 80px 0; 
+
+}
   .social li {
     display: inline;
     margin: 0 14px; }
