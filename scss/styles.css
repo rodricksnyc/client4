@@ -1664,9 +1664,15 @@ font-weight: 400;
 
 .social {
   padding-left: 0;
-  margin: 30px 0 80px 0; 
+  margin: 30px 0 80px 0;
 
 }
+
+input, textarea, .input-group {
+  color:white !important;
+}
+
+
   .social li {
     display: inline;
     margin: 0 14px; }
