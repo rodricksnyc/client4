@@ -1585,8 +1585,10 @@ button.navbar-toggle collapsed {
 
     }
     .contacts li em {
-      font-size: 12px;
-      opacity: 0.7; }
+      font-size: 18px;
+      opacity: 0.6;
+      font-weight:500;
+    }
 
 #credits {
   padding: 0 0 20px 0; }
