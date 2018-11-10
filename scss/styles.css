@@ -1668,6 +1668,11 @@ font-weight: 400;
 
 }
 
+textarea {
+  height:160px !important;
+  max-height:160px;
+}
+
 input, textarea, .input-group {
   color:white !important;
 }
