@@ -190,7 +190,7 @@ $(function(){
 
 	    	setTimeout(function(){
 	    		$('body').removeClass('init');
-	    	}, 500);
+	    	}, 100);
 
 			// slider
 			$('.slidein-slider').slick({
