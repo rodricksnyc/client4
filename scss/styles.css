@@ -210,6 +210,10 @@ ul {
   float: right;
   margin: 10px 0px 10px 20px; }
 
+  .mh400 {
+    height:800px;
+  }
+
 /* ============================================================================ */
 /* 1.1 - Preloader																*/
 /* ============================================================================ */
@@ -458,7 +462,7 @@ button.btn {
 /* 1.5 - Backgrounds															*/
 /* ============================================================================ */
 .bg.naiomiOne {
-  background: url(../images/headshot2.jpg); }
+  background: url(../images/14.jpg); }
 
 .bg-specialities-title {
   background: url(images/headshot2.jpg); }
